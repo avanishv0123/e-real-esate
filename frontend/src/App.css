@@ -1,0 +1,37 @@
+#headerlogo {
+  /* border: 2px solid red; */
+  height: 50px;
+  /* background-color: #007bff; */
+}
+nav .activenav {
+  /* background-color: rgb(190, 190, 190); */
+  color: #007bff !important;
+  border-bottom: #007bff 2px inset;
+}
+.dropdown-menu {
+  border: none;
+  outline: none;
+  text-indent: 40px;
+  /* color: #007bff; */
+  /* background: transparent; */
+}
+.dropdown-menu .dropdown-item {
+  background-color: #fff !important;
+  /* border-bottom: 2px solid red; */
+}
+.dropdown-item:hover {
+  background-color: #fff;
+  /* color: #007bff !important; */
+  border-bottom: #007bff 2px inset;
+}
+.propnav {
+  color: #7c7c7d !important;
+}
+.propnav:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  #logoname {
+    font-size: 30px;
+  }
+}

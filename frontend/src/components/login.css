@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* border: 2px solid black; */
+  overflow-x: hidden;
+}
+.bgimg {
+  /* border:2px solid blue; */
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0px !important; */
+  /* background-color: #fff; */
+  margin: 0 auto;
+}
+.bgimg img {
+  /* border:2px solid black; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url("../assets/images/user.png"); */
+  /* border: 2px solid red; */
+}
+.button-box .active {
+  /* padding:10px!important; */
+  outline: none !important;
+  border-radius: 15px;
+  background-color: green;
+  color: #fff;
+  border: none !important;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+  /* font-size: 18px; */
+  text-align: center;
+}
+.form-content {
+  /* border:2px solid black; */
+  height: 500px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  /*background-color: #fff;*/
+}
+.form-content .form-box {
+  /* border:2px solid red; */
+  background-color: #fff;
+  height: 450px;
+  width: 75%;
+  margin: auto;
+  padding: 5px;
+  position: relative;
+  /*box-shadow: 0 0 20px 10px f;*/
+  box-shadow: 0px 0px 10px 2px silver;
+  border-top: 4px inset #007bff;
+  border-bottom: 5px inset #28a745;
+  border-radius: 20px;
+}
+
+.form-content .form-box h3 {
+  font-weight: bold;
+  /* text-decoration: underline; */
+  font-size: 24px;
+  padding: 20px;
+  background-color: #28a745;
+  border-radius: 20px 20px 0px 0px;
+}
+.form-content .form-box .button-box {
+  margin: 0px auto;
+  width: 160px;
+  box-shadow: 0 0 10px 1px grey;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#btn1,
+#btn3,
+#btn4 {
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+#btn2 {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: navy;
+  font-weight: 500;
+}
+#btn2:hover {
+  border-bottom: 1px inset #dc3545;
+}
+.form [placeholder] {
+  font-size: 13px;
+}
+#slogin {
+  /* border: 2px solid black; */
+  margin: 20px;
+  display: block;
+}
+#ubtn {
+  border: 2px solid red;
+}
+
+@media screen and (max-width: 768px) {
+  .form-box {
+    /* border: 2px solid red; */
+    width: 90% !important;
+  }
+}

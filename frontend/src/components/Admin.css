@@ -1,0 +1,28 @@
+
+#adminlog
+{
+	/*border:2px solid red;*/
+	/*display: none;*/
+	position: absolute;
+	top: 150px;
+	padding: 25px;
+	width: 100%;
+	display:none;
+	color:black;
+}
+#sbtn
+{
+	/*color:black!important;*/
+	font-size: 14px!important;
+}
+
+#adbtn{
+	/*color:black!important;*/
+	font-size: 14px!important;
+
+}
+
+#adminlog[input]
+{
+	width: 100%;
+}

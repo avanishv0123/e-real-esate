@@ -1,0 +1,15 @@
+.active {
+  font-weight: bold;
+}
+#logoname {
+  font-family: Algerian;
+  /* font-family: "Bauhaus 93"; */
+  /* font-family: "Broadway"; */
+  font-family: "chiller";
+  font-weight: bold;
+  font-size: 40px;
+}
+.regbtn {
+  font-size: 40px;
+  /* border: 2px solid red; */
+}
